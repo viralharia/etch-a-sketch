@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ETCH-A-SKETCH</h1>
+        <div class="controls">
+            <button id="reset">Reset</button>
+            <form>
+                <label>Number of Boxes on each row :</label>
+                <input type="text" id="sizeInput" value="16"/>
+            </form>
+        </div>
+        <div class="grid">
+        </div>
+        <p>Click on the grid cell to toggle painting. Current status - <span id="painting-status"></span></p>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

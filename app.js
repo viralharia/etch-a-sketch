@@ -1,4 +1,4 @@
-const DEFAULT_GRID_SIZE = 16;
+const DEFAULT_GRID_SIZE = 20;
 const DEFAULT_CELL_COLOR = "#000";
 const ROLLOVER_CELL_COLOR = "#FFF";
 let painting = false;
